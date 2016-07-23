@@ -16,7 +16,12 @@ $(document).ready(function () {
     /*$('.carousel').carousel({
         interval: false
     });*/
-    
+
+
+    $('[data-toggle="popover"]').popover();
+  
+
+
     /* Vertically center Modals so they don't show up at top of screen */
     // Reposition when a modal is shown
     $('.modal').on('show.bs.modal', repositionModal);
