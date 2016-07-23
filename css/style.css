@@ -35,7 +35,10 @@ h3 {
 p {
      font-size: 2vmin;
 }
-
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 @media only screen
 and (max-width: 576px) {
     p {
@@ -43,7 +46,8 @@ and (max-width: 576px) {
     }
 
 }
-    .active {
+
+.active {
     color: #ffffff;
     background-color: #208df3;
     text-decoration: underline;
@@ -58,6 +62,13 @@ and (max-width: 576px) {
 .dark-overlay h1 h3 {
     color: #ffffff;
 }
+
+body > .btn {
+    transition: all 0.5s ease 0s;
+}
+
+
+
 /* Parrallax Styling */
 .parrallax {
     background: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e2cbf8fc0f617f10d40fbf59797b524") no-repeat;
@@ -106,6 +117,8 @@ and (max-width: 686px) {
 
 .btn:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: purple;
+    padding: 10px;
 }
 /*
 .dark-overlay {
@@ -120,7 +133,7 @@ and (max-width: 686px) {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.7);
 } */
-
+/**********************************/
 #team {
     padding-top: 60px;
     padding-bottom:60px;
@@ -128,46 +141,111 @@ and (max-width: 686px) {
     background-color: #0c84e4;
 }
 
-
+/**********************************/
 #proposal {
     padding-top: 60px;
     padding-bottom:60px;
     color: #ffffff;
     background-color: #7b00e4;
 }
+/**********************************/
 #prototype {
     padding-top: 60px;
     height: 500px;
     color: #ffffff;
     background-color: #ff9411;
 }
+/**********************************/
 #documentation {
     padding-top: 60px;
     height: 500px;
     color: #ffffff;
     background-color: #2eb24c;
 }
+/**********************************/
 #dbdiagram {
     padding-top: 60px;
     height: 500px;
     color: #ffffff;
     background-color: #e400ad;
 }
+/**********************************/
 #screenshots {
     padding-top: 60px;
     height: 500px;
     color: #ffffff;
     background-color: #e40300;
 }
+/**********************************/
 #presentation {
     padding-top: 60px;
-    height: 500px;
+    padding-bottom: 60px;
     color: #ffffff;
     background-color: #5b4295;
 }
+.carousel .item {
+    height: 500px;
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
+}
+.carousel-control:focus {
+    outline: 0;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.carousel-control:hover {
+    outline: 0;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 1;
+}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .fa-angle-left,
+.carousel-control .fa-angle-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 5;
+    display: inline-block;
+}
+.carousel-control.left {
+    background-image: none;
+    left: -1%;
+}
+.carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: none;
+}
+/* carousel images */
+.carousel-inner .item .c-img{
+    height:100%;
+    width: 100%;
+}
+/**********************************/
 #project {
     padding-top: 60px;
     height: 500px;
+    width:100%;
     color: #ffffff;
     background-color: #070175;
+}
+
+.main {
+    width: 100%;
+
 }
