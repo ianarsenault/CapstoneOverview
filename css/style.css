@@ -1,0 +1,173 @@
+body {
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #ffffff;
+}
+h1 {
+    font-size: 5.9vw;
+}
+.dark-overlay h1 {
+    font-size: 5.9vw;
+    color: #ffffff;
+}
+h2 {
+    font-size: 3.0vh;
+}
+h3 {
+    font-size: 2.3vw;
+}
+p {
+     font-size: 2vmin;
+}
+
+@media only screen
+and (max-width: 576px) {
+    p {
+        font-size: 3vmin;
+    }
+
+}
+    .active {
+    color: #ffffff;
+    background-color: #208df3;
+    text-decoration: underline;
+}
+
+.dark-overlay {
+    color: #fff;
+}
+.white {
+    color: #ffffff;
+}
+.dark-overlay h1 h3 {
+    color: #ffffff;
+}
+/* Parrallax Styling */
+.parrallax {
+    background: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5e2cbf8fc0f617f10d40fbf59797b524") no-repeat;
+    position: fixed;
+    width: 100%;
+    margin-top: 5px;
+    left: 0;
+    background-size: 100%;
+    background-position: 0 0;
+    height: 100%;
+    z-index: -1;
+    margin-bottom:0;
+}
+.jumbotron {
+    padding-top: 100px;
+    padding-left: 30px;
+    margin-top: 50px;
+    height: 500px;
+    background: transparent;
+}
+@media only screen
+and (max-width: 414px) {
+    .jumbotron {
+        padding-top:50px;
+        padding-left: 30px;
+        background: transparent;
+        height: 245px;
+
+    }
+}
+
+@media only screen
+and (min-width: 415px)
+and (max-width: 686px) {
+    .jumbotron {
+        padding-top:35px;
+        padding-left: 30px;
+        background: transparent;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+.dark-overlay {
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 1);
+}
+
+.btn:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+/*
+.dark-overlay {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 14px;
+    margin-right: 80px;
+    transition: background-color 2s;
+}
+/*
+.dark-overlay:hover {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+} */
+
+#team {
+    padding-top: 60px;
+    padding-bottom:60px;
+    color: #ffffff;
+    background-color: #0c84e4;
+}
+
+
+#proposal {
+    padding-top: 60px;
+    padding-bottom:60px;
+    color: #ffffff;
+    background-color: #7b00e4;
+}
+#prototype {
+    padding-top: 60px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #ff9411;
+}
+#documentation {
+    padding-top: 60px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #2eb24c;
+}
+#dbdiagram {
+    padding-top: 60px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #e400ad;
+}
+#screenshots {
+    padding-top: 60px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #e40300;
+}
+#presentation {
+    padding-top: 60px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #5b4295;
+}
+#project {
+    padding-top: 60px;
+    height: 500px;
+    color: #ffffff;
+    background-color: #070175;
+}
