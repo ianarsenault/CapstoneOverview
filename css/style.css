@@ -35,7 +35,10 @@ h3 {
 p {
      font-size: 2vmin;
 }
-
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 @media only screen
 and (max-width: 576px) {
     p {
@@ -237,6 +240,12 @@ and (max-width: 686px) {
 #project {
     padding-top: 60px;
     height: 500px;
+    width:100%;
     color: #ffffff;
     background-color: #070175;
+}
+
+.main {
+    width: 100%;
+
 }
