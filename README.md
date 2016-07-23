@@ -2,7 +2,7 @@
 
 ![Statys](https://img.shields.io/badge/Complete-10%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
 ![Statys](https://img.shields.io/badge/Team Members-Ian + Jameson-red.svg)
-![Statys](https://img.shields.io/badge/Frameworks-Foundation CSS-blue.svg)
+![Statys](https://img.shields.io/badge/Frameworks-Bootstrap CSS-purple.svg)
 
 
 This website is an overview for the details in building our AS Capstone Project 
