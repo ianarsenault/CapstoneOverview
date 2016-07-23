@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AS Capstone Overview | Team Arsenault</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <!-- Boostrap Materialize Theme -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- Stylsheet -->
@@ -13,44 +15,80 @@
 </head>
 <body  data-spy="scroll" data-target="#spy-scroll-id">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top ">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spy-scroll-id">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">AS Capstone Overview</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="spy-scroll-id">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#team" >Team</a></li>
-                    <li class=""><a href="#proposal" class="">Proposal</a></li>
-                    <li class=""><a href="#prototype" class="">Prototype</a></li>
-                    <li class=""><a href="#documentation" class="">Documentation</a></li>
-                    <li class=""><a href="#dbdiagram" class="">DB Diagram</a></li>
-                    <li class=""><a href="#screenshots" class="">Screenshots</a></li>
-                    <li class=""><a href="#presentation" class="">Presentation</a></li>
-                    <li class=""><a href="#project" class="">Project</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spy-scroll-id">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">AS Capstone Overview</a>
         </div>
-    </nav>
 
-
-    <!-- Main jumbotron with parrallax-->
-    <div class="parrallax"></div>
-    <div class="jumbotron">
-        <div class="dark-overlay">
-            <h1>AS Capstone Overview</h1>
-            <h3 class="white">Ian Arsenault + Jameson Arsenault</h3><br />
+        <div class="collapse navbar-collapse" id="spy-scroll-id">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#team" >Team</a></li>
+                <li class=""><a href="#proposal" class="">Proposal</a></li>
+                <li class=""><a href="#prototype" class="">Prototype</a></li>
+                <li class=""><a href="#documentation" class="">Documentation</a></li>
+                <li class=""><a href="#dbdiagram" class="">DB Diagram</a></li>
+                <li class=""><a href="#screenshots" class="">Screenshots</a></li>
+                <li class=""><a href="#presentation" class="">Presentation</a></li>
+                <li class=""><a href="#project" class="">Project</a></li>
+            </ul>
         </div>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
     </div>
+</nav>
 
+
+<!-- Main jumbotron with parrallax-->
+<div class="parrallax"></div>
+<div class="jumbotron">
+    <div class="dark-overlay">
+        <h1>AS Capstone Overview</h1>
+        <h3 class="white">Ian Arsenault + Jameson Arsenault</h3><br />
+    </div>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button" id="mbtn1" data-toggle="modal" data-target="#myModal">Learn more</a></p>
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Send Ian a message!</h4>
+            </div>
+            <div class="modal-body">
+
+                <form class="openSans">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="yourname@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="textArea1">Message</label>
+                        <textarea id="textArea1"  class="form-control" rows="6" placeholder="Type your message here..."></textarea>
+                        <!--<input type="text" class="form-control" rows="6" placeholder="Type your message here.....">-->
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
+                <button type="button" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--
     <div class="jumbotron">
@@ -62,132 +100,199 @@
     </div>-->
 
 
-    <!-- Main Content -->
-    <div class="">
-        <section id="team">
-            <h1>Team Developers</h1>
-            <img src= "http://i.imgur.com/kSnJSMb.png">
-            <img src= "http://i.imgur.com/V2YTCyE.png">
+<!-- Main Content -->
+<div class="main">
+    <section id="team">
+        <h1>Team Developers</h1>
 
-            <h4>Ian Arsenault</h4>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-            </blockquote>
 
-            <h4>Jameson Arsenault</h4>
 
-            <blockquote class="blockquote-reverse">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-            </blockquote>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
 
-        <section id="proposal">
-            <h1>Proposal</h1>
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    Basic panel
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
+                </a>
+            </div>
+            <div class="media-body">
+                <blockquote>
+                    <h4 class="media-heading text-center">Ian Arsenault</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="media">
+            <div class="media-body">
+                <h4 class="media-heading">Jameson Arsenault</h4>
+
+            </div>
+            <div class="media-right">
+                <a href="#">
+                    <img class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
+                </a>
+            </div>
+        </div>
+
+
+        <blockquote>
+            <h4 class="text-center">Ian Arsenault</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+
+        <h4>Jameson Arsenault</h4>
+
+        <blockquote class="blockquote-reverse">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
+
+    <section id="proposal">
+        <h1>Proposal</h1>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Basic panel
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel heading</div>
+            <div class="panel-body">
+                Panel content
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Panel content
+            </div>
+            <div class="panel-footer">Panel footer</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
+
+    <section id="prototype">
+        <h1>Prototype</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
+
+    <section id="documentation">
+        <h1>Documentation</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
+
+    <section id="dbdiagram">
+        <h1>Database Diagrams</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
+
+    <section id="screenshots">
+        <h1>Screenshots</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
+
+    <section id="presentation">
+        <h1>Presentation</h1>
+
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
+                <div id="carousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="https://www.filamentgroup.com/examples/jqconsf2011/jqcon2011sf.jpg" alt="..." class="c-img">
+                            <div class="carousel-caption">
+                                <h1>First Slide</h1>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="..." alt="...">
+                            <div class="carousel-caption">
+                                <h1>Second Slide</h1>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="..." alt="...">
+                            <div class="carousel-caption">
+                                <h1>Third Slide</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right fa-2x" aria-hidden="true" ></i>
+                    </a>
                 </div>
             </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">Panel heading</div>
-                <div class="panel-body">
-                    Panel content
-                </div>
-            </div>
+        </div>
+    </section>
 
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    Panel content
-                </div>
-                <div class="panel-footer">Panel footer</div>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
+    <section id="project">
+        <h1>Project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+    </section>
 
-        <section id="prototype">
-            <h1>Prototype</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
-
-        <section id="documentation">
-            <h1>Documentation</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
-
-        <section id="dbdiagram">
-            <h1>Database Diagrams</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
-
-        <section id="screenshots">
-            <h1>Screenshots</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
-
-        <section id="presentation">
-            <h1>Presentation</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
-
-        <section id="project">
-            <h1>Project</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </section>
-
-    </div><!-- /Main Content-container-fluid-->
+</div><!-- /Main Content-container-fluid-->
 
 
 
@@ -197,13 +302,13 @@
 
 
 
-    <!-- jQuery  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Bootstrap Javascript -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Javascript -->
-    <script type="text/javascript" src="js/script.js"></script>
-    <!-- Fonts Awesome -->
-    <script src="https://use.fontawesome.com/351ac21fcd.js"></script>
+<!-- jQuery  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Bootstrap Javascript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Javascript -->
+<script type="text/javascript" src="js/script.js"></script>
+<!-- Fonts Awesome -->
+<script src="https://use.fontawesome.com/351ac21fcd.js"></script>
 </body>
 </html>
