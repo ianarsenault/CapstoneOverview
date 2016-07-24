@@ -46,11 +46,18 @@ and (max-width: 576px) {
     }
 
 }
+/* Navbar transition fade for btns
+.nav > li > a {
+    -webkit-transition: background linear 350ms;
+    -moz-transition: background linear 350ms;
+}*/
 
 .active {
     color: #ffffff;
     background-color: #208df3;
     text-decoration: underline;
+
+
 }
 
 .dark-overlay {
@@ -247,8 +254,18 @@ and (max-width: 686px) {
     color: #ffffff;
     background-color: #070175;
 }
-
+/*
 .main {
     width: 100%;
+
+}*/
+
+footer {
+    color: #ffffff;
+    background-color: #208df3;
+}
+.bottom-footer {
+    padding: 8px 0 2px 0;
+    background-color: #2188f3;
 
 }
