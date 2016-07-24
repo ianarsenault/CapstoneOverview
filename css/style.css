@@ -1,7 +1,9 @@
 body {
     position: relative;
 }
-
+.center-align {
+    margin: auto;
+}
 h1,
 h2,
 h3,
@@ -45,6 +47,11 @@ and (max-width: 576px) {
         font-size: 3vmin;
     }
 
+}
+/* Navbar transition fade for btns */
+.nav > li > a {
+    -webkit-transition: background linear 350ms;
+    -moz-transition: background linear 350ms;
 }
 
 .active {
@@ -151,6 +158,56 @@ and (max-width: 686px) {
     color: #ffffff;
     background-color: #7b00e4;
 }
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.846;
+    border: 1px solid transparent;
+    border-radius: 3px 3px 0 0;
+}
+.nav-tabs > li > a:hover {
+    border-color: #eeeeee #eeeeee transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #666666;
+    background-color: #ffffff;
+    -webkit-transition: background linear 350ms;
+    -moz-transition: background linear 350ms;
+    cursor: default;
+}
+
+.nav-tabs > li > a {
+    margin-right: 0;
+    line-height: 1.846;
+    border: 1px solid transparent;
+    border-radius: 0 0 0 0;
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs {
+    text-align:center;
+    padding: 10px 16px;
+    font-size: 17px;
+    line-height: 1.3333333;
+    border-radius: 3px;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+
+}
+.tab-content > .active {
+    display: block;
+    background-color: #ffffff;
+    color: #666666;
+    text-decoration: none;
+}
+
 /**********************************/
 #prototype {
     padding-top: 60px;
@@ -247,8 +304,18 @@ and (max-width: 686px) {
     color: #ffffff;
     background-color: #070175;
 }
-
+/*
 .main {
     width: 100%;
+
+}*/
+
+footer {
+    color: #ffffff;
+    background-color: #208df3;
+}
+.bottom-footer {
+    padding: 8px 0 2px 0;
+    background-color: #2188f3;
 
 }

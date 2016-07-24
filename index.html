@@ -96,7 +96,6 @@
 <div class="main">
     <section id="team">
         <h1 class="text-center">Team Developers</h1>
-
         <div class="media">
             <div class="media-left media-middle">
                 <img height="128" width="128" class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
@@ -136,23 +135,52 @@
         <h1>Proposal</h1>
         <div class="panel panel-default">
             <div class="panel-body">
-                Basic panel
+                <div class="row">
+                    <!-- Nav tabs -->
+                    <div class="center-align">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active tab"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                            <li role="presentation" class="tab"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                            <li role="presentation" class="tab"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                            <li role="presentation" class="tab"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                        </ul>
+                    </div>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                            aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                            Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                            richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+                            Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
+                            four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+                            mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
+                            labore aesthetic magna delectus mollit.
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                            aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                            Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                            richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="settings">
+                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+                            Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
+                            four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+                            mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
+                            labore aesthetic magna delectus mollit.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">Panel heading</div>
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-body">
-                Panel content
-            </div>
-            <div class="panel-footer">Panel footer</div>
-        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
             dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
             ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
@@ -269,11 +297,27 @@
 
 <footer>
     <div class="top-footer">
-        <p>Contact Ian</p>
-        <p>Contact Jameson</p>
+        <div class="row text-center">
+            <div class="col-lg-6">
+                <h6>Contact Ian</h6>
+                <i class="fa fa-slack fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+            </div>
+            <div class="col-lg-6">
+                <h6>Contact Jameson</h6>
+                <i class="fa fa-slack" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+            </div>
+        </div>
     </div>
     <div class="bottom-footer">
-        <p>&copy; 2016 Team Arsenault</p>
+        <p class="text-center">&copy; 2016 Team Arsenault</p>
     </div>
 </footer>
 
