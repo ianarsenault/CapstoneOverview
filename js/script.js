@@ -16,13 +16,14 @@ $(document).ready(function () {
     /*$('.carousel').carousel({
         interval: false
     });*/
-
-
+    
     // Popover init
     $('[data-toggle="popover"]').popover();
     // Tooltip Init
-    $('[data-toggle="tooltip"]').tooltip();
-    
+    $('[data-toggle="tooltip"]').tooltip({
+        trigger: 'hover'
+    });
+
 
     /* Vertically center Modals so they don't show up at top of screen */
     // Reposition when a modal is shown
