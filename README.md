@@ -17,7 +17,7 @@ Currently in development. Followed are a list of items that must be completed. T
   * Jameson
     * responsibilities 
 * Version of Proposal
-  * Display proposal as image or in html format
+  * Display proposal as image or PDF
 * Working Prototype
   * Wireframes of Website + C# Program
 * PDF of technical document
@@ -32,8 +32,9 @@ Currently in development. Followed are a list of items that must be completed. T
 
 # Completed [Specific Details]
 - [x] Navbar + Logo + Scrollfire
-- [x] Added Proposal
+- [x] Added Proposal - Updated PDF
 - [x] Github Source button for project
 - [x] Slideshow/Slider for Powerpoint Presentation
 - [x]
+
 ## Deadline: September 21, 2016
