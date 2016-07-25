@@ -13,7 +13,7 @@
     <!-- Stylsheet -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
-<body  data-spy="scroll" data-target="#spy-scroll-id">
+<body  data-spy="scroll" data-target="#spy-scroll-id" id="top">
 
 <nav class="navbar navbar-inverse navbar-fixed-top ">
     <div class="container-fluid">
@@ -62,29 +62,16 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send Ian a message!</h4>
+                <h4 class="modal-title text-center" id="myModalLabel">What is AS Capstone?</h4>
             </div>
             <div class="modal-body">
-
-                <form class="openSans">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="yourname@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="textArea1">Message</label>
-                        <textarea id="textArea1"  class="form-control" rows="6" placeholder="Type your message here..."></textarea>
-                        <!--<input type="text" class="form-control" rows="6" placeholder="Type your message here.....">-->
-                    </div>
-                </form>
+                <p>AS Capstone is a course in the final quarter of an Associates Degree in which students
+                    can develop a project in their area of interest. The objective of the capstone project is to integrate
+                    skills learned during the students time at New England Tech. Building a real world application that is
+                    developed within a 10 week period.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
-                <button type="button" class="btn btn-primary">Send</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
             </div>
         </div>
     </div>
@@ -95,41 +82,44 @@
 <!-- Main Content -->
 <div class="main">
     <section id="team">
-        <h1 class="text-center">Team Developers</h1>
-        <div class="media">
-            <div class="media-left media-middle">
-                <img height="128" width="128" class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
+        <h1 class="text-center team-title">Team Developers</h1>
+        <div class="container">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img height="128" width="128" class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
+                </div>
+                <div class="media-body">
+                    <blockquote>
+                        <h4 class="media-heading ">Ian Arsenault</h4>
+                        <p>Respnosibilities: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                        </p>
+                    </blockquote>
+                </div>
             </div>
-            <div class="media-body">
-                <blockquote>
-                    <h4 class="media-heading ">Ian Arsenault</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                        dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                        ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                   </p>
-                </blockquote>
-            </div>
-        </div>
 
-        <!--<a role="button" tabindex="0" class="btn btn-lg btn-danger" data-container="body" data-toggle="popover" title="Social Media" data-content="<i class='fa fa-linkedin fa-2x' aria-hidden='true'></i><i class='fa fa-github fa-2x' aria-hidden='true'></i>" data-html="true" data-placement="right">Click to toggle popover</a>
-        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="POOPFART">Dismissible popover</a>-->
+            <!--<a role="button" tabindex="0" class="btn btn-lg btn-danger" data-container="body" data-toggle="popover" title="Social Media" data-content="<i class='fa fa-linkedin fa-2x' aria-hidden='true'></i><i class='fa fa-github fa-2x' aria-hidden='true'></i>" data-html="true" data-placement="right">Click to toggle popover</a>
+            <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="POOPFART">Dismissible popover</a>-->
 
-        <div class="media">
-            <div class="media-body">
-                <blockquote class="blockquote-reverse">
-                    <h4 class="media-heading ">Jameson Arsenault</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                        dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                        ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                        justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                      </p>
-                </blockquote>
-            </div>
-            <div class="media-right media-middle">
-                <img height="128" width="128" class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
+            <div class="media">
+                <div class="media-body">
+                    <blockquote class="blockquote-reverse">
+                        <h4 class="media-heading ">Jameson Arsenault</h4>
+                        <p>Responsibilities: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                        </p>
+                    </blockquote>
+                </div>
+                <div class="media-right media-middle">
+                    <img height="128" width="128" class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
+                </div>
             </div>
         </div>
     </section>
+
 
     <section id="proposal">
         <h1>Proposal</h1>
@@ -239,7 +229,7 @@
 
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
-                <div id="carousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                <div id="carousel" class="carousel slide depth-large" data-interval="false" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -284,6 +274,11 @@
 
     <section id="project">
         <h1>Project</h1>
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4>Warning!</h4>
+            <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
             dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
             ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
@@ -291,8 +286,45 @@
             tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
             molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-    </section>
 
+        <!-- Section 3 Projects -->
+        <div class="row">
+           <!-- <div class="col-sm- col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="Project_Javascript">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>-->
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                <div class="thumbnail">
+                    <img src="http://www.touchestudio.com/wp-content/uploads/sites/75/2015/09/building-a-sitemap.jpg" alt="Project_Javascript">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="text-center"><a href="#" class="btn btn-primary" role="button">View Project</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="Project_Javascript">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+
+        <div class="text-center" id="spy-scroll-id">
+           <a href="#top"><i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i></a>
+        </div>
+    </section>
 </div><!-- /Main Content-container-fluid-->
 
 <footer>
@@ -323,7 +355,9 @@
 
 
 
-
+<div class="fixed-download-btn">
+    <a href="#" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="" data-original-title="Project Source Code" aria-describedby="tooltip715414"><i class="fa fa-github fa-2x hidden-xs" aria-hidden="true"></i><span class="btn-text">Download</span></a>
+</div>
 
 
 
