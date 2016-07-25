@@ -19,7 +19,7 @@ h6,
     font-family: inherit;
     font-weight: 400;
     line-height: 1.1;
-    color: #ffffff;
+
 }
 h1 {
     font-size: 5.9vw;
@@ -48,6 +48,25 @@ and (max-width: 576px) {
     }
 
 }
+
+.media-object {
+    display: block;
+    border-radius: 64px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.media-right {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.depth-large {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
 /* Navbar transition fade for btns */
 .nav > li > a {
     -webkit-transition: background linear 350ms;
@@ -70,9 +89,10 @@ and (max-width: 576px) {
     color: #ffffff;
 }
 
+/*
 body > .btn {
     transition: all 0.5s ease 0s;
-}
+}*/
 
 .popover-title{
     background: #ffff99;
@@ -127,8 +147,7 @@ and (max-width: 686px) {
 
 .btn:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-    background-color: purple;
-    padding: 10px;
+
 }
 /*
 .dark-overlay {
@@ -151,6 +170,9 @@ and (max-width: 686px) {
     background-color: #0c84e4;
 }
 
+.team-title {
+    margin-bottom: 60px;
+}
 /**********************************/
 #proposal {
     padding-top: 60px;
@@ -288,8 +310,16 @@ and (max-width: 686px) {
 }
 .carousel-control.right {
     left: auto;
-    right: 0;
+    right: 1.5%;
     background-image: none;
+}
+@media only screen
+and (max-width: 556px) {
+    .carousel-control.right {
+        left: auto;
+        right: 2%;
+        background-image: none;
+    }
 }
 /* carousel images */
 .carousel-inner .item .c-img{
@@ -299,7 +329,8 @@ and (max-width: 686px) {
 /**********************************/
 #project {
     padding-top: 60px;
-    height: 500px;
+
+    padding-bottom: 60px;
     width:100%;
     color: #ffffff;
     background-color: #070175;
@@ -310,12 +341,35 @@ and (max-width: 686px) {
 
 }*/
 
+
+.fixed-download-btn {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    margin-bottom: 0;
+    z-index: 998;
+    opacity: 0.5;
+    -webkit-transition: opacity linear 350ms;
+    -moz-transition: opacity linear 350ms;
+}
+
+.fixed-download-btn:hover {
+    opacity: 1;
+}
+
+.btn-text {
+
+}
+.fa-github {
+    vertical-align: middle;
+    padding-right: 5px;
+}
 footer {
     color: #ffffff;
     background-color: #208df3;
 }
 .bottom-footer {
     padding: 8px 0 2px 0;
-    background-color: #2188f3;
+    background-color: #208df3;
 
 }
