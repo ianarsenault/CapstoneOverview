@@ -13,7 +13,7 @@
     <!-- Stylsheet -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
-<body  data-spy="scroll" data-target="#spy-scroll-id">
+<body  data-spy="scroll" data-target="#spy-scroll-id" id="top">
 
 <nav class="navbar navbar-inverse navbar-fixed-top ">
     <div class="container-fluid">
@@ -62,124 +62,115 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Send Ian a message!</h4>
+                <h4 class="modal-title text-center" id="myModalLabel">What is AS Capstone?</h4>
             </div>
             <div class="modal-body">
-
-                <form class="openSans">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="yourname@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="textArea1">Message</label>
-                        <textarea id="textArea1"  class="form-control" rows="6" placeholder="Type your message here..."></textarea>
-                        <!--<input type="text" class="form-control" rows="6" placeholder="Type your message here.....">-->
-                    </div>
-                </form>
+                <p>AS Capstone is a course in the final quarter of an Associates Degree in which students
+                    can develop a project in their area of interest. The objective of the capstone project is to integrate
+                    skills learned during the students time at New England Tech. Building a real world application that is
+                    developed within a 10 week period.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
-                <button type="button" class="btn btn-primary">Send</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
             </div>
         </div>
     </div>
 </div>
 
-<!--
-    <div class="jumbotron">
-        <div class="dark-overlay">
-            <h1>AS Capstone Overview</h1>
-            <h3>Ian Arsenault + Jameson Arsenault</h3><br />
-        </div>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>-->
 
 
 <!-- Main Content -->
 <div class="main">
     <section id="team">
-        <h1>Team Developers</h1>
-
-
-
-
-
-        <div class="media">
-            <div class="media-left">
-                <a href="#">
-                    <img class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
-                </a>
+        <h1 class="text-center team-title">Team Developers</h1>
+        <div class="container">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <img height="128" width="128" class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
+                </div>
+                <div class="media-body">
+                    <blockquote>
+                        <h4 class="media-heading ">Ian Arsenault</h4>
+                        <p>Respnosibilities: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                        </p>
+                    </blockquote>
+                </div>
             </div>
-            <div class="media-body">
-                <blockquote>
-                    <h4 class="media-heading text-center">Ian Arsenault</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                </blockquote>
+
+            <!--<a role="button" tabindex="0" class="btn btn-lg btn-danger" data-container="body" data-toggle="popover" title="Social Media" data-content="<i class='fa fa-linkedin fa-2x' aria-hidden='true'></i><i class='fa fa-github fa-2x' aria-hidden='true'></i>" data-html="true" data-placement="right">Click to toggle popover</a>
+            <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="POOPFART">Dismissible popover</a>-->
+
+            <div class="media">
+                <div class="media-body">
+                    <blockquote class="blockquote-reverse">
+                        <h4 class="media-heading ">Jameson Arsenault</h4>
+                        <p>Responsibilities: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                        </p>
+                    </blockquote>
+                </div>
+                <div class="media-right media-middle">
+                    <img height="128" width="128" class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
+                </div>
             </div>
         </div>
-
-        <div class="media">
-            <div class="media-body">
-                <h4 class="media-heading">Jameson Arsenault</h4>
-
-            </div>
-            <div class="media-right">
-                <a href="#">
-                    <img class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
-                </a>
-            </div>
-        </div>
-
-
-        <blockquote>
-            <h4 class="text-center">Ian Arsenault</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-        </blockquote>
-
-        <h4>Jameson Arsenault</h4>
-
-        <blockquote class="blockquote-reverse">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-        </blockquote>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
     </section>
+
 
     <section id="proposal">
         <h1>Proposal</h1>
         <div class="panel panel-default">
             <div class="panel-body">
-                Basic panel
+                <div class="row">
+                    <!-- Nav tabs -->
+                    <div class="center-align">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active tab"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                            <li role="presentation" class="tab"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                            <li role="presentation" class="tab"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                            <li role="presentation" class="tab"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                        </ul>
+                    </div>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+                            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                            aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                            Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                            richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="profile">
+                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+                            Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
+                            four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+                            mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
+                            labore aesthetic magna delectus mollit.
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                            aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                            Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry
+                            richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel,
+                            butcher voluptate nisi qui.
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="settings">
+                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+                            Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
+                            four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer
+                            mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
+                            labore aesthetic magna delectus mollit.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="panel panel-default">
-            <div class="panel-heading">Panel heading</div>
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
 
-        <div class="panel panel-default">
-            <div class="panel-body">
-                Panel content
-            </div>
-            <div class="panel-footer">Panel footer</div>
-        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
             dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
             ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
@@ -238,7 +229,7 @@
 
         <div class="row">
             <div class="col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
-                <div id="carousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                <div id="carousel" class="carousel slide depth-large" data-interval="false" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -283,6 +274,11 @@
 
     <section id="project">
         <h1>Project</h1>
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h4>Warning!</h4>
+            <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
             dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
             ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
@@ -290,14 +286,78 @@
             tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
             Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
             molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-    </section>
 
+        <!-- Section 3 Projects -->
+        <div class="row">
+           <!-- <div class="col-sm- col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="Project_Javascript">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>-->
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                <div class="thumbnail">
+                    <img src="http://www.touchestudio.com/wp-content/uploads/sites/75/2015/09/building-a-sitemap.jpg" alt="Project_Javascript">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="text-center"><a href="#" class="btn btn-primary" role="button">View Project</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="" alt="Project_Javascript">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+
+        <div class="text-center" id="spy-scroll-id">
+           <a href="#top"><i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i></a>
+        </div>
+    </section>
 </div><!-- /Main Content-container-fluid-->
 
+<footer>
+    <div class="top-footer">
+        <div class="row text-center">
+            <div class="col-lg-6">
+                <h6>Contact Ian</h6>
+                <i class="fa fa-slack fa-1x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+            </div>
+            <div class="col-lg-6">
+                <h6>Contact Jameson</h6>
+                <i class="fa fa-slack" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <p class="text-center">&copy; 2016 Team Arsenault</p>
+    </div>
+</footer>
 
 
 
-
+<div class="fixed-download-btn">
+    <a href="#" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="" data-original-title="Project Source Code" aria-describedby="tooltip715414"><i class="fa fa-github fa-2x hidden-xs" aria-hidden="true"></i><span class="btn-text">Download</span></a>
+</div>
 
 
 

@@ -17,6 +17,14 @@ $(document).ready(function () {
         interval: false
     });*/
     
+    // Popover init
+    $('[data-toggle="popover"]').popover();
+    // Tooltip Init
+    $('[data-toggle="tooltip"]').tooltip({
+        trigger: 'hover'
+    });
+
+
     /* Vertically center Modals so they don't show up at top of screen */
     // Reposition when a modal is shown
     $('.modal').on('show.bs.modal', repositionModal);
@@ -27,6 +35,7 @@ $(document).ready(function () {
 
 
 
+    // Scrollspy init and target - offset
     $('body').scrollspy({
         target: '#spy-scroll-id',
         offset: 200

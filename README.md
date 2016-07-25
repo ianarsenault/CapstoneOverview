@@ -1,6 +1,6 @@
 # AS Capstone Overview
 
-![Statys](https://img.shields.io/badge/Complete-10%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
+![Statys](https://img.shields.io/badge/Complete-15%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
 ![Statys](https://img.shields.io/badge/Team Members-Ian + Jameson-red.svg)
 ![Statys](https://img.shields.io/badge/Frameworks-Bootstrap CSS-blue.svg)
 
@@ -28,10 +28,12 @@ Currently in development. Followed are a list of items that must be completed. T
 * Screenshots of final project
  *  C# Record 
 * Powerpoint Presentation
- 
+* Project Section
+
 # Completed [Specific Details]
 - [x] Navbar + Logo + Scrollfire
 - [x] Added Proposal
-
-
+- [x] Github Source button for project
+- [x] Slideshow/Slider for Powerpoint Presentation
+- [x]
 ## Deadline: September 21, 2016
