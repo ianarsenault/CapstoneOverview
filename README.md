@@ -18,8 +18,9 @@ Currently in development. Followed are a list of items that must be completed. T
     * responsibilities 
 * Version of Proposal
   * Display proposal as image or PDF
-* Working Prototype
-  * Wireframes of Website + C# Program
+
+- [x] Working Prototype
+
 * PDF of technical document
   * Assets
   * Overview of functionality
