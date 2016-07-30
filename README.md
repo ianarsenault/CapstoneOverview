@@ -36,6 +36,5 @@ Currently in development. Followed are a list of items that must be completed. T
 - [x] Added Proposal - Updated PDF
 - [x] Github Source button for project
 - [x] Slideshow/Slider for Powerpoint Presentation
-- [x]
 
 ## Deadline: September 21, 2016
