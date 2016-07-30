@@ -237,9 +237,28 @@ and (max-width: 686px) {
 /**********************************/
 #prototype {
     padding-top: 60px;
-    height: 500px;
+    padding-bottom: 60px;
     color: #ffffff;
     background-color: #ff9411;
+}
+
+/* Image scale doubled on hover
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1); }
+
+*/
+.col-img {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 30px;
+
+}
+
+.long-col {
+    margin-top: 30px;
 }
 /**********************************/
 #documentation {
@@ -389,6 +408,14 @@ and (max-width: 556px) {
     border-width: 5px 0 5px 5px;
     border-left-color: #07155c;
 }
+
+.soc-icon {
+    padding:3px;
+    color: #ffffff;
+}
+.soc-icon:hover {
+    color: #ffaa00
+}
 footer {
     color: #ffffff;
     background-color: #208df3;
@@ -397,4 +424,30 @@ footer {
     padding: 8px 0 2px 0;
     background-color: #208df3;
 
+}
+.animated {
+    margin-top: 30px;
+}
+.animated:hover {
+    -webkit-animation: anim-color 5s;
+    animation: anim-color 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes anim-color {
+    0%   {color:#2196f3;}
+    25%   {color:red;}
+    50%  {color:orange;}
+    75%   {color:yellow;}
+    100% {color:#2196f3;}
+}
+
+@-webkit-keyframes anim-color {
+    0%   {color:#2196f3;}
+    25%   {color:red;}
+    50%  {color:orange;}
+    75%   {color:yellow;}
+    100% {color:#2196f3;}
 }
