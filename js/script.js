@@ -16,6 +16,13 @@ $(document).ready(function () {
     /*$('.carousel').carousel({
         interval: false
     });*/
+    /* Fade out overlay and loading screen */
+    $(".loading-overlay").show().delay(5000).fadeOut(2500);
+    $("#fadediv").show();
+    /* Progress Bar animation */
+    $(".prog-1, .prog-2, .prog-3 ").animate({
+        width: "100%"
+    }, 250 ); // start in under a sec
     
     // Popover init
     $('[data-toggle="popover"]').popover();

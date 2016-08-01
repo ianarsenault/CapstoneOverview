@@ -95,6 +95,80 @@ body > .btn {
     transition: all 0.5s ease 0s;
 }*/
 
+
+
+/********************  Loading Page Overlay ************************/
+.loadFont {
+    font-family: 'Poiret One', cursive;
+    font-size:62px;
+    margin-bottom: 0;
+
+}
+/* Progress transition */
+/* Progress Bar Placement & Styling */
+.progressive {
+}
+
+.progress {
+    border-radius: 20px;
+    margin-bottom:8px;
+    background-color: transparent;
+}
+
+.prog-1, .prog-2, .prog-3 {
+    float: left;
+    width: 0%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 23px;
+    text-align: center;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+.prog-1 {
+    background-color: #2d3af3;
+}
+
+.prog-2 {
+    background-color: #ff9800;
+}
+.prog-3 {
+    background-color: #b9151b;
+}
+#fadediv {
+    display:none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width:500px;
+    z-index: 1050 !important;
+}
+#middle-progress {
+    height: 50px;
+    border-radius: 2px !important;
+}
+
+.load-time {
+    -webkit-transition: width 2s ease-in-out;
+    -moz-transition: width 2s ease-in-out;
+    -ms-transition: width 2s ease-in-out;
+    -o-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
+}
+.loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 90;
+}
+/* End progress styling */
+
 .popover-title{
     background: #ffff99;
     color: #0c84e4;
