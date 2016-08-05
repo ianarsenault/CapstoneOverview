@@ -90,6 +90,12 @@ and (max-width: 576px) {
     color: #ffffff;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #fff !important;
+}
+
+
+
 /*
 body > .btn {
     transition: all 0.5s ease 0s;
@@ -305,6 +311,10 @@ and (max-width: 686px) {
     text-decoration: none;
 }
 
+.tab-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .modal-p {
     color: #666666;
 }
@@ -436,11 +446,12 @@ and (max-width: 556px) {
     color: #ffffff;
     background-color: #070175;
 }
-/*
+
 .main {
     width: 100%;
+    margin-right:-20px;
 
-}*/
+}
 
 
 .fixed-download-btn {
