@@ -19,7 +19,6 @@ h6,
     font-family: inherit;
     font-weight: 400;
     line-height: 1.1;
-
 }
 h1 {
     font-size: 5.9vw;
@@ -50,6 +49,9 @@ and (max-width: 576px) {
 .white-text {
     color: #ffffff;
 }
+.grey-text {
+    color : #6e6e6e;
+}
 .media-object {
     display: block;
     border-radius: 64px;
@@ -65,7 +67,7 @@ and (max-width: 576px) {
 
 .depth-large {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 26px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 /* Navbar transition fade for btns */
@@ -347,14 +349,14 @@ and (max-width: 686px) {
 /**********************************/
 #documentation {
     padding-top: 60px;
-    height: 500px;
+    padding-bottom:60px;
     color: #ffffff;
     background-color: #2eb24c;
 }
 /**********************************/
 #dbdiagram {
     padding-top: 60px;
-    height: 500px;
+    padding-bottom:60px;
     color: #ffffff;
     background-color: #e400ad;
 }
@@ -535,4 +537,11 @@ footer {
     50%  {color:orange;}
     75%   {color:yellow;}
     100% {color:#2196f3;}
+}
+
+.form-control:focus {
+    border-color: #e90e00;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 33, 47, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(233, 30, 37, 0.6);
 }
