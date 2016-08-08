@@ -59,9 +59,9 @@ and (max-width: 576px) {
 .media-object {
     display: block;
     border-radius: 64px;
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 1);
 }
 
 .media-right {
@@ -129,7 +129,7 @@ body > .btn {
 
 .prog-1, .prog-2, .prog-3 {
     float: left;
-    width: 0%;
+    width: 0;
     height: 100%;
     font-size: 12px;
     line-height: 23px;
@@ -172,8 +172,8 @@ body > .btn {
 .loading-overlay {
     display: none;
     position: fixed;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.8);
@@ -298,13 +298,35 @@ and (max-width: 788px) {
 .panel {
     background-color: rgba(232, 232, 232, 0.32);
 }
+.embed-pdf {
+    position: relative;
+    z-index: 1;
+}
 @media only screen
 and (min-width: 1130px) {
     .embed-pdf {
         width: 850px;
     }
+    .clear-overlay {
+        width:850px;
+    }
 }
-
+/* PDF OVERLAY */
+.clear-overlay {
+    display: block;
+    height:1125px;
+    width: 95%;
+    /*background-color: rgba(253, 255, 249, 0.48);*/
+    background-color: transparent;
+    z-index: 500;
+    margin-top: -1132px;
+    position: absolute;
+}
+/* button for overlay */
+.show-btn {
+    margin-top: 500px;
+    padding: 40px;
+}
 .nav-tabs > li > a {
     margin-right: 2px;
     line-height: 1.846;
@@ -429,6 +451,19 @@ and (min-width: 1500px) {
     padding-bottom:60px;
     color: #ffffff;
     background-color: #08508b;
+}
+
+.diagram-txt {
+    margin-left: 88px;
+}
+
+/* CLEAR WHEN LOADING C# DB DIAGRAM!!!!!!!!!! */
+.opac-invalid {
+    opacity: 0.3;
+}
+
+.text-pdng {
+    margin-top: 34px;
 }
 /**********************************/
 #screenshots {
