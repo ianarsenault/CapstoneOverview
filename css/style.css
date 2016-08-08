@@ -270,10 +270,26 @@ and (max-width: 788px) {
     padding-bottom:60px;
     color: #ffffff;
     background-color: #0c84e4;
+    transition: background-color 1.2s ease-in-out;
 }
 
+#team:hover {
+    background-color: #0a62ad;
+}
 .team-title {
     margin-bottom: 60px;
+}
+
+.media-heading {
+    color: #fdfff9 !important;
+    border-bottom: 2px solid #5fdfff;
+}
+
+blockquote:not(.blockquote-reverse) {;
+    border-left: 5px solid #adcfee !important;
+}
+.blockquote-reverse, blockquote.pull-right {
+    border-right: 5px solid #adcfee !important;
 }
 /**********************************/
 #proposal {
@@ -317,15 +333,16 @@ and (min-width: 1130px) {
     height:1125px;
     width: 95%;
     /*background-color: rgba(253, 255, 249, 0.48);*/
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.31);
     z-index: 500;
     margin-top: -1132px;
     position: absolute;
 }
 /* button for overlay */
-.show-btn {
+#show-btn {
     margin-top: 500px;
     padding: 40px;
+
 }
 .nav-tabs > li > a {
     margin-right: 2px;
@@ -566,15 +583,18 @@ and (min-width: 1640px) {
 
 
 /**********************************/
-#project {
+#project:not(.thumbnail){
     padding-top: 60px;
-
     padding-bottom: 60px;
     width:100%;
     color: #ffffff;
-    background-color: #070175;
+    background-color: #303b57;
+    transition: all 2s ease-in-out;
 }
+#project:hover:not(.caption) {
+    background-color: #495576;
 
+}
 .main {
     width: 100%;
     margin-right:-20px;

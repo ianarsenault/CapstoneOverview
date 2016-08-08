@@ -31,6 +31,9 @@ $(document).ready(function () {
         trigger: 'hover'
     });
 
+    $("#show-btn").on('click', function () {
+        $(".clear-overlay").hide();
+    });
 
     /* Vertically center Modals so they don't show up at top of screen */
     // Reposition when a modal is shown
