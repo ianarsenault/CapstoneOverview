@@ -298,13 +298,35 @@ and (max-width: 788px) {
 .panel {
     background-color: rgba(232, 232, 232, 0.32);
 }
+.embed-pdf {
+    position: relative;
+    z-index: 1;
+}
 @media only screen
 and (min-width: 1130px) {
     .embed-pdf {
         width: 850px;
     }
+    .clear-overlay {
+        width:850px;
+    }
 }
-
+/* PDF OVERLAY */
+.clear-overlay {
+    display: block;
+    height:1125px;
+    width: 95%;
+    /*background-color: rgba(253, 255, 249, 0.48);*/
+    background-color: transparent;
+    z-index: 500;
+    margin-top: -1132px;
+    position: absolute;
+}
+/* button for overlay */
+.show-btn {
+    margin-top: 500px;
+    padding: 40px;
+}
 .nav-tabs > li > a {
     margin-right: 2px;
     line-height: 1.846;

@@ -27,6 +27,9 @@ Currently in development. Followed are a list of items that must be completed. T
 * Powerpoint Presentation
 * Project Section
 
+# Extra to-do
+* Create overlay div on PDF documents on click remove overlay so user can scroll pdf object
+
 # Completed [Main]
 - [x] Working Prototype
 - [x] PDF of technical document
