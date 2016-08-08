@@ -313,104 +313,110 @@
     </section>
 
     <section id="documentation">
-        <h1 class="white-text text-center dark-overlay">Documentation</h1>
+        <div class="container">
+            <h1 class="white-text text-center dark-overlay">Documentation</h1>
 
-        <!-- PDF EMBEDED
-        <embed src="file_name.pdf" width="800px" height="2100px">-->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+            <!-- PDF EMBEDED
+            <embed src="file_name.pdf" width="800px" height="2100px">-->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+        </div>
     </section>
 
     <section id="dbdiagram">
-        <h1 class="white-text text-center">Database Diagrams</h1>
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="white-text">Website Database Diagram</h4>
+        <div class="container">
+            <h1 class="white-text text-center">Database Diagrams</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="white-text diagram-txt">Website Database Diagram</h4>
+                </div>
+                <div class="text-center">
+                    <a href="#" data-toggle="modal" data-target="#webDBModal" ><img class="img-responsive depth-large" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
+                </div>
             </div>
-            <div class="text-center">
-                <a href="#" data-toggle="modal" data-target="#webDBModal" ><img class="img-responsive depth-large" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
-            </div>
-        </div>
 
-        <!-- Website DB Diagram Download Modal -->
-        <div class="modal fade" id="webDBModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title text-center" id="myModalLabel">Website Database Diagram</h4>
-                    </div>
-                    <div class="modal-body">
-                        <h5 class="text-center">Website checkout system using MySQL Database</h5>
-                        <p class="grey-text">Download the technical documentation for our MySQL Database for our website checkout system by clicking the
-                            download it button below</p>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="text-center">
-                            <a href="#!" type="button" class="btn btn-primary">Download PDF</a>
+            <!-- Website DB Diagram Download Modal -->
+            <div class="modal fade" id="webDBModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title text-center" id="myModalLabel">Website Database Diagram</h4>
                         </div>
-                    </div>
-                </div><!-- /modal content -->
-            </div><!-- /modal-dialog div-->
-        </div><!-- /modal -->
-
-
-        <div class="row">
-            <div class="col-md-12">
-                <h4 class="white-text">C# Database Diagram</h4>
-            </div>
-            <div class="text-center">
-                <a href="#" data-toggle="modal" data-target="#csharpdDbModal" ><img class="img-responsive depth-large" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
-            </div>
-        </div>
-
-        <!-- C# DB Diagram Download Modal -->
-        <div class="modal fade" id="csharpdDbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title text-center" id="myModalLabel">C# Database Diagram</h4>
-                    </div>
-                    <div class="modal-body">
-                        <h5 class="text-center">C# Patient Record System using SQL Server2014</h5>
-                        <p class="grey-text">Download the technical documentation for our SQL Database for our C# electronic patient medical record system
-                            by clicking the download it button below</p>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="text-center">
-                            <a href="#!" type="button" class="btn btn-primary">Download PDF</a>
+                        <div class="modal-body">
+                            <h5 class="text-center">Website checkout system using MySQL Database</h5>
+                            <p class="grey-text">Download the technical documentation for our MySQL Database for our website checkout system by clicking the
+                                download it button below</p>
                         </div>
-                    </div>
-                </div><!-- /modal content -->
-            </div><!-- /modal-dialog div-->
-        </div><!-- /modal -->
+                        <div class="modal-footer">
+                            <div class="text-center">
+                                <a href="#!" type="button" class="btn btn-primary">Download PDF</a>
+                            </div>
+                        </div>
+                    </div><!-- /modal content -->
+                </div><!-- /modal-dialog div-->
+            </div><!-- /modal -->
+
+
+            <div class="row">
+                <div class="col-md-12 text-pdng">
+                    <h4 class="white-text diagram-txt">C# Database Diagram</h4>
+                </div>
+                <div class="text-center">
+                    <a href="#" data-toggle="modal" data-target="#csharpdDbModal" ><img class="img-responsive depth-large opac-invalid" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
+                </div>
+            </div>
+
+            <!-- C# DB Diagram Download Modal -->
+            <div class="modal fade" id="csharpdDbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title text-center" id="myModalLabel">C# Database Diagram</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5 class="text-center">C# Patient Record System using SQL Server2014</h5>
+                            <p class="grey-text">Download the technical documentation for our SQL Database for our C# electronic patient medical record system
+                                by clicking the download it button below</p>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="text-center">
+                                <a href="#!" type="button" class="btn btn-primary">Download PDF</a>
+                            </div>
+                        </div>
+                    </div><!-- /modal content -->
+                </div><!-- /modal-dialog div-->
+            </div><!-- /modal -->
 
 
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+            <p class="text-pdng">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+        </div>
     </section>
 
     <section id="screenshots">
-        <h1 class="white-text text-center">Screenshots</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-            dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-            ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-            justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-            tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-            molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+        <div class="container">
+            <h1 class="white-text text-center">Screenshots</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+        </div>
     </section>
 
     <section id="presentation">
