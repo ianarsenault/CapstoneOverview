@@ -482,6 +482,13 @@ and (min-width: 1500px) {
 .text-pdng {
     margin-top: 34px;
 }
+/*************************************/
+#timeline {
+    padding: 60px 0 60px 0 !important;
+    color: #ffffff;
+    background-color: #0000dd;
+}
+/**************************************/
 /**********************************/
 #screenshots {
     padding-top: 60px;
