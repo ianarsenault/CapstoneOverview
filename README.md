@@ -24,6 +24,8 @@ Currently in development. Followed are a list of items that must be completed. T
 
 # Extra to-do
  * Changing the transition color of background on projects section
+ * Scope diagram 
+ * Timeline diagram
 
 
 # Completed [Main]
