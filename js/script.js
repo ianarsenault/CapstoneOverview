@@ -10,7 +10,13 @@ var repositionModal = function () {
     dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 3));
 };
 
-
+// Enables scrolling after 7.5 seconds -- loading screen 
+var switchScroll = function () {
+    var body = $("body");
+    setTimeout(function () {
+        body.removeClass("stop-scrolling");
+    }, 7500);
+};
 
 $(document).ready(function () {
     /*$('.carousel').carousel({
@@ -43,7 +49,8 @@ $(document).ready(function () {
         $('.modal:visible').each(repositionModal);
     });
 
-
+    // scroll enable disable function
+   switchScroll();
 
     // Scrollspy init and target - offset
     $('body').scrollspy({
