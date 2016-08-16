@@ -17,11 +17,23 @@ var switchScroll = function () {
         body.removeClass("stop-scrolling");
     }, 7500);
 };
+// Show main content after landing div loads first
+var mainContent = function () {
+    var main = $(".main-section");
+    setTimeout(function () {
+       main.show();
+    }, 3000);
+};
 
 $(document).ready(function () {
     /*$('.carousel').carousel({
         interval: false
     });*/
+    $(".main-section").hide();
+
+    // Display main content 3 seconds after landing div
+    mainContent();
+
     /* Fade out overlay and loading screen */
     $(".loading-overlay").show().delay(5000).fadeOut(2500);
     $("#fadediv").show();
@@ -59,7 +71,7 @@ $(document).ready(function () {
     });
 
 
-    /**  Scrollspy Functionality **/
+    /*  Scrollspy Functionality */
     /* Scrollspy Active Navbutton function */
     $('.navbar li').click(function() {
         // removes active class from previous clicked button
