@@ -22,13 +22,14 @@ var mainContent = function () {
     var main = $(".main-section");
     setTimeout(function () {
        main.show();
-    }, 3000);
+    }, 3300);
 };
 
 $(document).ready(function () {
     /*$('.carousel').carousel({
         interval: false
     });*/
+    
     $(".main-section").hide();
 
     // Display main content 3 seconds after landing div
