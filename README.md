@@ -11,7 +11,7 @@ This website is an overview for the details in building our AS Capstone Project
 Currently in development. Followed are a list of items that must be completed. This will be updated as we progress. Feel free to open an issue, or pull requests.
 
 #To-Do's [Main]
-* Final Draft of Proposal
+- [ ] Final Draft of Proposal
 * Final Draft of Technical Documentation
 * Relationship Diagram of Database
   * SQL Server 2014
@@ -21,7 +21,7 @@ Currently in development. Followed are a list of items that must be completed. T
 * Powerpoint Presentation (layout completed)
 
 # Extra to-do
- * Scope diagram 
+ * Scope diagram (Visio)
 
 
 # Completed [Main]
@@ -39,7 +39,7 @@ Currently in development. Followed are a list of items that must be completed. T
 - [x] Pre-final proposal displaying as embedded PDF
 - [x] Pre-final Tech documentation
 - [x] Create overlay div on PDF documents on click remove overlay so user can scroll pdf object
-- [x] Timeline diagram
+- [x] Timeline diagram (Visio)
 - [x] Changing the transition color of background on projects section
 - [x] Splash page for Team Arsenault
 

@@ -30,7 +30,7 @@ h1 {
 }
 h2 {
     font-size: 3.0vh;
-}x
+}
 h3 {
     font-size: 2.3vw;
 }
@@ -100,14 +100,10 @@ and (max-width: 576px) {
     color: #fff !important;
 }
 
-
-
 /*
 body > .btn {
     transition: all 0.5s ease 0s;
 }*/
-
-
 
 /********************  Loading Page Overlay ************************/
 .loadFont {
@@ -646,7 +642,9 @@ and (min-width: 1640px) {
     margin-right:-20px;
 
 }
-
+.main-section {
+    display: none;
+}
 
 .fixed-download-btn {
     position: fixed;
