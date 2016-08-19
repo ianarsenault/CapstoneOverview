@@ -1,6 +1,12 @@
 body {
     position: relative;
-    background-color: #1f6fb4;
+    background-color: #ffffff;
+    /* Transition background after splash div loads*/
+    -webkit-transition: background-color 0.09s;
+    -moz-transition: background-color 0.09s;
+    -ms-transition: background-color 0.09s;
+    -o-transition: background-color 0.09s;
+    transition: background-color 0.09s;
 }
 .center-align {
     margin: auto;
@@ -346,10 +352,17 @@ and (min-width: 1130px) {
     height:1125px;
     width: 95%;
     /*background-color: rgba(253, 255, 249, 0.48);*/
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: rgba(0, 0, 0, 0.04);
     z-index: 500;
     margin-top: -1132px;
     position: absolute;
+}
+/* Changes width of overlay */
+@media only screen
+and (max-width: 550px) {
+    .clear-overlay {
+        width: 89%;
+    }
 }
 /* button for overlay */
 #show-btn {

@@ -23,6 +23,12 @@ var mainContent = function () {
     setTimeout(function () {
        main.show();
     }, 3300);
+    /** Transition background-color of body after
+     *  splash div loads first - this stops the blue flash **/
+    var body = $("body");
+    setTimeout(function () {
+       body.css("background-color", "#1f6fb4");
+    }, 3100);
 };
 
 $(document).ready(function () {
