@@ -42,7 +42,7 @@ $(document).ready(function () {
     mainContent();
 
     /* Fade out overlay and loading screen */
-    $(".loading-overlay").show().delay(5000).fadeOut(2500);
+    $(".loading-overlay").fadeIn('slow').show().delay(5000).fadeOut(2500);
     $("#fadediv").show();
     /* Progress Bar animation */
     $(".prog-1, .prog-2, .prog-3 ").animate({
