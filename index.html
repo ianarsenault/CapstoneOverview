@@ -15,580 +15,584 @@
     <!-- Stylsheet -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
-<body  data-spy="scroll" data-target="#spy-scroll-id" id="top">
-
-<nav class="navbar navbar-inverse navbar-fixed-top ">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spy-scroll-id">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">AS Capstone Overview</a>
+<body  data-spy="scroll" data-target="#spy-scroll-id" id="top" class="stop-scrolling">
+<!-- LOADING DIV -->
+<div class="loading-overlay">
+    <div id="fadediv">
+        <div class="text-center" style="margin-bottom: 10px;">
+            <img class="img-responsive" alt="NEIT Log" src="images/neit.jpg" />
         </div>
-        <div class="collapse navbar-collapse" id="spy-scroll-id">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#team" >Team</a></li>
-                <li class=""><a href="#proposal" class="">Proposal</a></li>
-                <li class=""><a href="#prototype" class="">Prototype</a></li>
-                <li class=""><a href="#documentation" class="">Documentation</a></li>
-                <li class=""><a href="#dbdiagram" class="">DB Diagram</a></li>
-                <li class=""><a href="#timeline" class="">Timeline</a></li>
-                <li class=""><a href="#screenshots" class="">Screenshots</a></li>
-                <li class=""><a href="#presentation" class="">Presentation</a></li>
-                <li class=""><a href="#project" class="">Project</a></li>
-            </ul>
+        <p class="text-center blue-text load-title">- AS Capstone Overview -</p>
+        <p class="text-center blue-text load-title2"><i>Team Arsenault</i></p>
+    </div>
+</div>    <!-- / LOADING DIV -->
+<!-- Main Section -->
+<main class="main-section">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#spy-scroll-id">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">AS Capstone Overview</a>
+            </div>
+            <div class="collapse navbar-collapse" id="spy-scroll-id">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#team" >Team</a></li>
+                    <li class=""><a href="#proposal" class="">Proposal</a></li>
+                    <li class=""><a href="#prototype" class="">Prototype</a></li>
+                    <li class=""><a href="#documentation" class="">Documentation</a></li>
+                    <li class=""><a href="#dbdiagram" class="">DB Diagram</a></li>
+                    <li class=""><a href="#timeline" class="">Timeline</a></li>
+                    <li class=""><a href="#screenshots" class="">Screenshots</a></li>
+                    <li class=""><a href="#presentation" class="">Presentation</a></li>
+                    <li class=""><a href="#project" class="">Project</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+    <!-- / NAVBAR -->
 
+    <!-- Main jumbotron with parrallax-->
+    <div class="parallax"></div>
+    <div class="jumbotron">
+        <div class="dark-overlay">
+            <h1>AS Capstone Overview</h1>
+            <h3 class="white">Ian Arsenault + Jameson Arsenault</h3><br />
+        </div>
+        <p><a class="btn btn-warning btn-lg" href="#" role="button" id="mbtn1" data-toggle="modal" data-target="#myModal">Learn more</a></p>
+    </div><!-- /jumbotron -->
 
-<!-- Main jumbotron with parrallax-->
-<div class="parallax"></div>
-<div class="jumbotron">
-    <div class="dark-overlay">
-        <h1>AS Capstone Overview</h1>
-        <h3 class="white">Ian Arsenault + Jameson Arsenault</h3><br />
-    </div>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button" id="mbtn1" data-toggle="modal" data-target="#myModal">Learn more</a></p>
-</div><!-- /jumbotron -->
-
-
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title text-center">What is AS Capstone?</h4>
-            </div>
-            <div class="modal-body">
-                <p>AS Capstone is a course in the final quarter of an Associates Degree in which students
-                    can develop a project in their area of interest. The objective of the capstone project is to integrate
-                    skills learned during the students time at New England Tech. Building a real world application that is
-                    developed within a 10 week period.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
-            </div>
-        </div><!-- /modal content -->
-    </div><!-- /modal-dialog div-->
-</div><!-- /modal -->
-
-
-
-<!-- Main Content -->
-<div class="main">
-    <section id="team">
-        <h1 class="text-center team-title white-text">Team Developers</h1>
-        <div class="container">
-            <div class="media">
-                <div class="media-left media-middle">
-                    <img height="128" width="128" class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">What is AS Capstone?</h4>
                 </div>
-                <div class="media-body">
-                    <blockquote>
-                        <h4 class="media-heading">Ian Arsenault</h4>
-                        <p><b><i>Responsibilities</i></b>: Ian's main responsibility is the company website, he also helps create the C# program.
-                            He is responsible for keeping the project on time. Ian ensures deliverables meet the acceptance criteria given for the capstone project.
-                            To understand and be able to talk coherently about the many practices we are implementing and their benefits for the project. Ian ensures that all work is thoroughly tested before it is finalized, and presented.
-                            Pair programming in order to understand what another team member is doing, and ability to point out anything that could be fixed or improved upon.
-                        </p>
-                    </blockquote>
-                </div><!-- /media body -->
-            </div><!-- /media -->
-
-            <!--<a role="button" tabindex="0" class="btn btn-lg btn-danger" data-container="body" data-toggle="popover" title="Social Media" data-content="<i class='fa fa-linkedin fa-2x' aria-hidden='true'></i><i class='fa fa-github fa-2x' aria-hidden='true'></i>" data-html="true" data-placement="right">Click to toggle popover</a>
-            <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="POOPFART">Dismissible popover</a>-->
-
-            <div class="media">
-                <div class="media-body">
-                    <blockquote class="blockquote-reverse">
-                        <h4 class="media-heading ">Jameson Arsenault</h4>
-                        <p><b><i>Responsibilities</i></b>: Jameson's main responsibility is the C# program, and he also helps design the company website.
-                            He is responsible for keeping diligent records on what has been done, and what needs to be completed. Jameson makes sure the team adheres to the software quality standards and principles agreed upon by the team.
-                            Jameson's responsibilities also include ensuring deliverables meet the acceptance criteria given for the capstone project. Pair programming in order to understand what
-                            another team member is doing, and ability to point out anything that could be fixed or improved upon.
-                        </p>
-                    </blockquote>
+                <div class="modal-body">
+                    <p>AS Capstone is a course in the final quarter of an Associates Degree in which students
+                        can develop a project in their area of interest. The objective of the capstone project is to integrate
+                        skills learned during the students time at New England Tech. Building a real world application that is
+                        developed within a 10 week period.</p>
                 </div>
-                <div class="media-right media-middle">
-                    <img height="128" width="128" class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">Got it!</button>
                 </div>
-            </div><!-- /media-->
-        </div><!--/ container-->
-    </section>
+            </div><!-- /modal content -->
+        </div><!-- /modal-dialog div-->
+    </div><!-- /modal -->
 
-    <div class="proposal-bckgrnd">
-        <section id="proposal">
-            <h1 class="white-text text-center dark-overlay">Proposal</h1>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                    <div class="panel depth-large">
-                        <div class="panel-body">
-                            <!-- PDF Proposal for Project -->
-                            <div class="text-center">
-                                <!--<object style="width:100%; height:1125px;" data="assets/CapstoneProposal.pdf" type="application/pdf">
+
+
+    <!-- Main Content -->
+    <div class="main">
+        <section id="team">
+            <h1 class="text-center team-title white-text">Team Developers</h1>
+            <div class="container">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <img height="128" width="128" class="media-object" src="http://i.imgur.com/kSnJSMb.png" alt="Gilfoyle-Ian">
+                    </div>
+                    <div class="media-body">
+                        <blockquote>
+                            <h4 class="media-heading">Ian Arsenault</h4>
+                            <p><b><i>Responsibilities</i></b>: Ian's main responsibility is the company website, he also helps create the C# program.
+                                He is responsible for keeping the project on time. Ian ensures deliverables meet the acceptance criteria given for the capstone project.
+                                To understand and be able to talk coherently about the many practices we are implementing and their benefits for the project. Ian ensures that all work is thoroughly tested before it is finalized, and presented.
+                                Pair programming in order to understand what another team member is doing, and ability to point out anything that could be fixed or improved upon.
+                            </p>
+                        </blockquote>
+                    </div><!-- /media body -->
+                </div><!-- /media -->
+
+                <div class="media">
+                    <div class="media-body">
+                        <blockquote class="blockquote-reverse">
+                            <h4 class="media-heading ">Jameson Arsenault</h4>
+                            <p><b><i>Responsibilities</i></b>: Jameson's main responsibility is the C# program, and he also helps design the company website.
+                                He is responsible for keeping diligent records on what has been done, and what needs to be completed. Jameson makes sure the team adheres to the software quality standards and principles agreed upon by the team.
+                                Jameson's responsibilities also include ensuring deliverables meet the acceptance criteria given for the capstone project. Pair programming in order to understand what
+                                another team member is doing, and ability to point out anything that could be fixed or improved upon.
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="media-right media-middle">
+                        <img height="128" width="128" class="media-object" src="http://i.imgur.com/V2YTCyE.png" alt="Baghead-Jameson">
+                    </div>
+                </div><!-- /media-->
+            </div><!--/ container-->
+        </section><!-- / Team Section -->
+
+        <div class="proposal-bckgrnd">
+            <section id="proposal">
+                <h1 class="white-text text-center dark-overlay">Proposal</h1>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                        <div class="panel depth-large">
+                            <div class="panel-body">
+                                <!-- PDF Proposal for Project -->
+                                <div class="text-center">
+                                    <!--<object style="width:100%; height:1125px;" data="assets/CapstoneProposal.pdf" type="application/pdf">
+                                        <embed class="embed-pdf" src="assets/CapstoneProposal.pdf"  width="100%" height="1125px" type="application/pdf">
+                                    </object>-->
                                     <embed class="embed-pdf" src="assets/CapstoneProposal.pdf"  width="100%" height="1125px" type="application/pdf">
-                                </object>-->
-                                <embed class="embed-pdf" src="assets/CapstoneProposal.pdf"  width="100%" height="1125px" type="application/pdf">
-                                <div class="clear-overlay">
-                                    <a class="btn btn-lg btn-danger" id="show-btn" role="button">Click to view!</a>
+                                        <div class="clear-overlay">
+                                            <a class="btn btn-lg btn-danger" id="show-btn" role="button">Click to view!</a>
+                                        </div>
+                                </div>
+                            </div><!-- /panel body-->
+                        </div><!-- /panel -->
+                    </div><!-- /col-->
+                </div><!-- /row-->
+
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                    dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                    ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                    justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                    tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                    molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>-->
+            </section>
+        </div>
+
+
+        <section id="prototype">
+            <h1 class="white-text text-center">Prototype</h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 long-col">
+                    <div class="col-md-12">
+                        <h5 class="text-center proto-color">Homepage Prototype</h5>
+                    </div>
+                    <!--- Popout Image trigger modal -->
+                    <a href="#" data-toggle="modal" data-target="#homepageModal"><img src="images/prototypes/index.jpg" class="img-responsive" alt="Website Homepage"></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="homepageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="images/prototypes/index.jpg" class="img-responsive" alt="Website Homepage" data-dismiss="modal">
                                 </div>
                             </div>
-                        </div><!-- /panel body-->
-                    </div><!-- /panel -->
-                </div><!-- /col-->
-            </div><!-- /row-->
-
-            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>-->
+                        </div>
+                    </div><!-- end image pop-out -->
+                    <div class="col-md-12 col-img visible-sm">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Patient Insurance Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#csharpInsuranceModal1"><img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="csharpInsuranceModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 long-col">
+                    <div class="col-md-12 col-img">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Purchase Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#checkoutModal"><img src="images/prototypes/checkout.jpg" class="img-responsive" alt="Website Checkout"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/checkout.jpg" class="img-responsive" alt="Website Checkout"  data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                    <div class="col-md-12 col-img proto-spacing">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Order Complete Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#completeModal"><img src="images/prototypes/complete.jpg" class="img-responsive" alt="Website Order Complete"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="completeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/complete.jpg" class="img-responsive" alt="Website Order Complete" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 long-col">
+                    <div class="col-md-12 col-img">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">C# Login Prototypes</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <div class="text-center">
+                            <a href="#" data-toggle="modal" data-target="#csharpLoginModal" class="center-img"><img src="images/prototypes/LoginScreen.JPG" class="img-responsive c-login" alt="C# Login"></a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="csharpLoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/LoginScreen.JPG" class="img-responsive " alt="C# Login" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                    <div class="col-md-12 col-img proto-spacing">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Patient Search Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#csharpSearchModal"><img src="images/prototypes/Search.JPG" class="img-responsive" alt="C# Search Page"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="csharpSearchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/Search.JPG" class="img-responsive" alt="C# Search Page" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                    <div class="col-md-12 col-img proto-spacing">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Patient Info Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#csharpPatientModal"><img src="images/prototypes/PatientForm.JPG" class="img-responsive" alt="C# Patient Portal"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="csharpPatientModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/PatientForm.JPG" class="img-responsive" alt="C# Patient Portal" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                    <div class="col-md-12 col-img hidden-sm proto-spacing">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Patient Insurance Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#csharpInsuranceModal2"><img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="csharpInsuranceModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                    <div class="col-md-12 col-img proto-spacing">
+                        <div class="col-md-12">
+                            <h5 class="text-center proto-color">Patient Med History Prototype</h5>
+                        </div>
+                        <!--- Popout Image trigger modal -->
+                        <a href="#" data-toggle="modal" data-target="#csharpHistoryModal"><img src="images/prototypes/MedHistory.JPG" class="img-responsive" alt="C# Medical History"></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="csharpHistoryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <img src="images/prototypes/MedHistory.JPG" class="img-responsive" alt="C# Medical History" data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- end image pop-out -->
+                    </div>
+                </div>
+            </div>
         </section>
-    </div>
 
+        <section id="documentation">
+            <div class="container">
+                <h1 class="white-text text-center dark-overlay">Documentation</h1>
 
-    <section id="prototype">
-        <h1 class="white-text text-center">Prototype</h1>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 long-col">
-                <div class="col-md-12">
-                    <h5 class="text-center proto-color">Homepage Prototype</h5>
-                </div>
-                <!--- Popout Image trigger modal -->
-                <a href="#" data-toggle="modal" data-target="#homepageModal"><img src="images/prototypes/index.jpg" class="img-responsive" alt="Website Homepage"></a>
-                <!-- Modal -->
-                <div class="modal fade" id="homepageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <img src="images/prototypes/index.jpg" class="img-responsive" alt="Website Homepage" data-dismiss="modal">
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- end image pop-out -->
-                <div class="col-md-12 col-img visible-sm">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">Patient Insurance Prototype</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#csharpInsuranceModal1"><img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="csharpInsuranceModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
+                <!-- PDF EMBEDED
+                <embed src="file_name.pdf" width="800px" height="2100px">-->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                    dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                    ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                    justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                    tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                    molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 long-col">
-                <div class="col-md-12 col-img">
+        </section>
+
+        <section id="dbdiagram">
+            <div class="container">
+                <h1 class="white-text text-center">Database Diagrams</h1>
+                <div class="row">
                     <div class="col-md-12">
-                        <h5 class="text-center proto-color">Purchase Prototype</h5>
+                        <h4 class="white-text diagram-txt">Website Database Diagram</h4>
                     </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#checkoutModal"><img src="images/prototypes/checkout.jpg" class="img-responsive" alt="Website Checkout"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/checkout.jpg" class="img-responsive" alt="Website Checkout"  data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-                <div class="col-md-12 col-img proto-spacing">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">Order Complete Prototype</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#completeModal"><img src="images/prototypes/complete.jpg" class="img-responsive" alt="Website Order Complete"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="completeModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/complete.jpg" class="img-responsive" alt="Website Order Complete" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 long-col">
-                <div class="col-md-12 col-img">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">C# Login Prototypes</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
                     <div class="text-center">
-                        <a href="#" data-toggle="modal" data-target="#csharpLoginModal" class="center-img"><img src="images/prototypes/LoginScreen.JPG" class="img-responsive c-login" alt="C# Login"></a>
+                        <a href="#" data-toggle="modal" data-target="#webDBModal" ><img class="img-responsive depth-large" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="csharpLoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/LoginScreen.JPG" class="img-responsive " alt="C# Login" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-                <div class="col-md-12 col-img proto-spacing">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">Patient Search Prototype</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#csharpSearchModal"><img src="images/prototypes/Search.JPG" class="img-responsive" alt="C# Search Page"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="csharpSearchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/Search.JPG" class="img-responsive" alt="C# Search Page" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-                <div class="col-md-12 col-img proto-spacing">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">Patient Info Prototype</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#csharpPatientModal"><img src="images/prototypes/PatientForm.JPG" class="img-responsive" alt="C# Patient Portal"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="csharpPatientModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/PatientForm.JPG" class="img-responsive" alt="C# Patient Portal" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-                <div class="col-md-12 col-img hidden-sm proto-spacing">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">Patient Insurance Prototype</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#csharpInsuranceModal2"><img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="csharpInsuranceModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/Insurance.JPG" class="img-responsive" alt="C# Insurance" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-                <div class="col-md-12 col-img proto-spacing">
-                    <div class="col-md-12">
-                        <h5 class="text-center proto-color">Patient Med History Prototype</h5>
-                    </div>
-                    <!--- Popout Image trigger modal -->
-                    <a href="#" data-toggle="modal" data-target="#csharpHistoryModal"><img src="images/prototypes/MedHistory.JPG" class="img-responsive" alt="C# Medical History"></a>
-                    <!-- Modal -->
-                    <div class="modal fade" id="csharpHistoryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="images/prototypes/MedHistory.JPG" class="img-responsive" alt="C# Medical History" data-dismiss="modal">
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- end image pop-out -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="documentation">
-        <div class="container">
-            <h1 class="white-text text-center dark-overlay">Documentation</h1>
-
-            <!-- PDF EMBEDED
-            <embed src="file_name.pdf" width="800px" height="2100px">-->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </div>
-    </section>
-
-    <section id="dbdiagram">
-        <div class="container">
-            <h1 class="white-text text-center">Database Diagrams</h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <h4 class="white-text diagram-txt">Website Database Diagram</h4>
-                </div>
-                <div class="text-center">
-                    <a href="#" data-toggle="modal" data-target="#webDBModal" ><img class="img-responsive depth-large" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
-                </div>
-            </div>
-
-            <!-- Website DB Diagram Download Modal -->
-            <div class="modal fade" id="webDBModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title text-center" id="myModalLabel">Website Database Diagram</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="text-center">Website checkout system using MySQL Database</h5>
-                            <p class="grey-text">Download the technical documentation for our MySQL Database for our website checkout system by clicking the
-                                download it button below</p>
-                        </div>
-                        <div class="modal-footer">
-                            <div class="text-center">
-                                <a href="#!" type="button" class="btn btn-primary">Download PDF</a>
-                            </div>
-                        </div>
-                    </div><!-- /modal content -->
-                </div><!-- /modal-dialog div-->
-            </div><!-- /modal -->
-
-
-            <div class="row">
-                <div class="col-md-12 text-pdng">
-                    <h4 class="white-text diagram-txt">C# Database Diagram</h4>
-                </div>
-                <div class="text-center">
-                    <a href="#" data-toggle="modal" data-target="#csharpdDbModal" ><img class="img-responsive depth-large opac-invalid" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
-                </div>
-            </div>
-
-            <!-- C# DB Diagram Download Modal -->
-            <div class="modal fade" id="csharpdDbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title text-center" id="myModalLabel">C# Database Diagram</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h5 class="text-center">C# Patient Record System using SQL Server2014</h5>
-                            <p class="grey-text">Download the technical documentation for our SQL Database for our C# electronic patient medical record system
-                                by clicking the download it button below</p>
-                        </div>
-                        <div class="modal-footer">
-                            <div class="text-center">
-                                <a href="#!" type="button" class="btn btn-primary">Download PDF</a>
-                            </div>
-                        </div>
-                    </div><!-- /modal content -->
-                </div><!-- /modal-dialog div-->
-            </div><!-- /modal -->
-
-
-
-            <p class="text-pdng">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </div>
-    </section>
-
-    <section id="timeline">
-        <div class="container">
-            <h1 class="white-text text-center">Timeline</h1>
-            <div class="text-center">
-                <img class="img-responsive" src="images/CapstoneTimeline.jpg" alt="Capstone Project Timeline"/>
-            </div>
-        </div>
-    </section>
-
-    <section id="screenshots">
-        <div class="container">
-            <h1 class="white-text text-center">Screenshots</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
-                dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
-                ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
-                justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
-                tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
-                molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
-        </div>
-    </section>
-
-    <section id="presentation">
-        <h1 class="white-text text-center">Presentation</h1>
-
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
-                <div id="carousel" class="carousel slide depth-large" data-interval="false" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                        <li data-target="#carousel" data-slide-to="3"></li>
-                        <li data-target="#carousel" data-slide-to="4"></li>
-                        <li data-target="#carousel" data-slide-to="5"></li>
-                        <li data-target="#carousel" data-slide-to="6"></li>
-                        <li data-target="#carousel" data-slide-to="7"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="images/CapstonePP/Slide1.jpg" alt="Slide 1 - Title" class="c-img">
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide2.jpg" alt="Slide 2 -" class="c-img">
-                            <!--<div class="carousel-caption">
-                                <h1>Second Slide</h1>
-                            </div>-->
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide3.jpg" alt="Slide 3 -" class="c-img">
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide4.jpg" alt="Slide 4 -" class="c-img">
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide5.jpg" alt="Slide 5 -" class="c-img">
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide6.jpg" alt="Slide 6 -" class="c-img">
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide7.jpg" alt="Slide 7 -" class="c-img">
-                        </div>
-                        <div class="item">
-                            <img src="images/CapstonePP/Slide8.jpg" alt="Slide 8 -" class="c-img">
-                        </div>
-                    </div><!-- / carousel items -->
-
-                    <!-- Carousel Controls -->
-                    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-                        <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
-                    </a>
-                    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-                        <i class="fa fa-angle-right fa-2x" aria-hidden="true" ></i>
-                    </a>
-                </div><!--/carousel-->
-
-
-
-
-
-
-                <div class="text-center full-screen-btn">
-                    <a href="#" target="" id="mbtn2" data-toggle="modal" data-target="#myModal2" class="btn btn-primary"><i class="fa fa-arrows-alt" aria-hidden="true"></i>  <span class="btn-text">Fullscreen</span></a>
                 </div>
 
-                <!-- Modal -->
-                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <!-- Website DB Diagram Download Modal -->
+                <div class="modal fade" id="webDBModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title text-center" id="myModalLabel">Full Screen Slideshow</h4>
+                                <h4 class="modal-title text-center" id="myModalLabel">Website Database Diagram</h4>
                             </div>
                             <div class="modal-body">
-                                <p class="modal-p"> Full Screen presentation will go here</p>
+                                <h5 class="text-center">Website checkout system using MySQL Database</h5>
+                                <p class="grey-text">Download the technical documentation for our MySQL Database for our website checkout system by clicking the
+                                    download it button below</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                                <div class="text-center">
+                                    <a href="#!" type="button" class="btn btn-warning">Download PDF</a>
+                                </div>
                             </div>
                         </div><!-- /modal content -->
                     </div><!-- /modal-dialog div-->
                 </div><!-- /modal -->
 
 
-            </div><!-- /col-->
-        </div><!-- /row-->
-    </section>
-
-    <section id="project">
-        <h1 class="white-text text-center">Project</h1>
-        <div class="container">
-            <p>For this project Ian and Jameson have created a software company that specializes in Electronic Healthcare Forms. They have created a company website which showcases what the company is all about.
-                On the website potential customers are able to see who the developers are and their responsibilities, an overview of what the product does, customer reviews about the product, and the ability to order the product.
-                They have also created a working C# program for Patient Records. Using the C# program users have the ability to add new patients, update patient records, search patients, or delete patients.
-                They can view patient demographic information with the ability to add or update information on the patient demographic form. Users can view patient insurance information and add, update, or delete information on that form as well.
-                They will also be able to view patient medical history and be able to add, update, or delete information on the medical history form.
-            </p>
-        </div>
-
-
-        <!-- Section 3 Projects -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                <div class="thumbnail">
-                    <img src="images/building-a-sitemap.jpg" alt="Project_Javascript">
-                    <div class="caption">
-                        <h3 class="text-center">Company Name</h3>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p class="text-center"><a href="#" class="btn btn-primary" role="button">View Project</a></p>
+                <div class="row">
+                    <div class="col-md-12 text-pdng">
+                        <h4 class="white-text diagram-txt">C# Database Diagram</h4>
                     </div>
-                </div><!-- / thumbnail-->
-            </div><!-- /col -->
-        </div><!-- /row -->
+                    <div class="text-center">
+                        <a href="#" data-toggle="modal" data-target="#csharpdDbModal" ><img class="img-responsive depth-large opac-invalid" src="images/dbdiagrams/webDbDiagram.png" alt="Website DB Diagram" /></a>
+                    </div>
+                </div>
 
-        <div class="text-center" id="spy-scroll-id">
-           <a href="#top"><i class="fa fa-chevron-up fa-3x animated" aria-hidden="true"></i></a>
-        </div>
-    </section>
-</div><!-- /Main Content-container-fluid-->
+                <!-- C# DB Diagram Download Modal -->
+                <div class="modal fade" id="csharpdDbModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title text-center" id="myModalLabel">C# Database Diagram</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="text-center">C# Patient Record System using SQL Server2014</h5>
+                                <p class="grey-text">Download the technical documentation for our SQL Database for our C# electronic patient medical record system
+                                    by clicking the download it button below</p>
+                            </div>
+                            <div class="modal-footer">
+                                <div class="text-center">
+                                    <a href="#!" type="button" class="btn btn-warning">Download PDF</a>
+                                </div>
+                            </div>
+                        </div><!-- /modal content -->
+                    </div><!-- /modal-dialog div-->
+                </div><!-- /modal -->
 
-<footer>
-    <div class="top-footer">
-        <div class="row text-center">
-            <div class="col-lg-6">
-                <h6>Contact Ian</h6>
-                <a href="https://ianarsenault.slack.com/signup" target="_blank" class="soc-icon"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>
-                <a href="#!" class="soc-icon"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#!" class="soc-icon"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#!" class="soc-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+
+
+                <p class="text-pdng">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                    dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                    ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                    justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                    tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                    molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
             </div>
-            <div class="col-lg-6">
-                <h6>Contact Jameson</h6>
-                <a href="#!" class="soc-icon"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>
-                <a href="#!" class="soc-icon"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#!" class="soc-icon"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#!" class="soc-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+        </section>
+
+        <section id="timeline">
+            <div class="container">
+                <h1 class="white-text text-center">Timeline</h1>
+                <div class="text-center">
+                    <img class="depth-large img-responsive timeline-img" src="images/CapstoneTimeline.jpg" alt="Capstone Project Timeline"/>
+                </div>
             </div>
+        </section>
+
+        <section id="screenshots">
+            <div class="container">
+                <h1 class="white-text text-center">Screenshots</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est elit, rhoncus vel elit sit amet,
+                    dignissim aliquet tortor. Curabitur eros odio, dictum non sapien a, tincidunt ultrices nulla. Suspendisse
+                    ullamcorper varius augue et rhoncus. Vivamus eget neque sed justo euismod finibus. Pellentesque commodo
+                    justo mi, a rutrum ex pellentesque id. Donec quis nunc at nulla faucibus efficitur. In eget sodales
+                    tellus. Integer eros nunc, hendrerit sed lectus ut, euismod malesuada purus. Aliquam erat volutpat.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris
+                    molestie lorem sit amet metus iaculis, at accumsan mi molestie.</p>
+            </div>
+        </section>
+
+        <section id="presentation">
+            <h1 class="white-text text-center">Presentation</h1>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3">
+                    <div id="carousel" class="carousel slide depth-large" data-interval="false" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                            <li data-target="#carousel" data-slide-to="3"></li>
+                            <li data-target="#carousel" data-slide-to="4"></li>
+                            <li data-target="#carousel" data-slide-to="5"></li>
+                            <li data-target="#carousel" data-slide-to="6"></li>
+                            <li data-target="#carousel" data-slide-to="7"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/CapstonePP/Slide1.jpg" alt="Slide 1 - Title" class="c-img">
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide2.jpg" alt="Slide 2 -" class="c-img">
+                                <!--<div class="carousel-caption">
+                                    <h1>Second Slide</h1>
+                                </div>-->
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide3.jpg" alt="Slide 3 -" class="c-img">
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide4.jpg" alt="Slide 4 -" class="c-img">
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide5.jpg" alt="Slide 5 -" class="c-img">
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide6.jpg" alt="Slide 6 -" class="c-img">
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide7.jpg" alt="Slide 7 -" class="c-img">
+                            </div>
+                            <div class="item">
+                                <img src="images/CapstonePP/Slide8.jpg" alt="Slide 8 -" class="c-img">
+                            </div>
+                        </div><!-- / carousel items -->
+
+                        <!-- Carousel Controls -->
+                        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
+                        </a>
+                        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                            <i class="fa fa-angle-right fa-2x" aria-hidden="true" ></i>
+                        </a>
+                    </div><!--/carousel-->
+
+
+
+
+
+
+                    <div class="text-center full-screen-btn">
+                        <a href="#" target="" id="mbtn2" data-toggle="modal" data-target="#myModal2" class="btn btn-warning"><i class="fa fa-arrows-alt" aria-hidden="true"></i>  <span class="btn-text">Fullscreen</span></a>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title text-center" id="myModalLabel">Full Screen Slideshow</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="modal-p"> Full Screen presentation will go here</p>
+                                </div>
+                            </div><!-- /modal content -->
+                        </div><!-- /modal-dialog div-->
+                    </div><!-- /modal -->
+
+
+                </div><!-- /col-->
+            </div><!-- /row-->
+        </section>
+
+        <section id="project">
+            <h1 class="white-text text-center">Project</h1>
+            <div class="container">
+                <p>For this project, we have created a software company that specializes in Electronic Healthcare Forms. While also creating a website which showcases the purpose, products, and goals of the E.H.R. (Electronic Health Record) company.
+                    On the website potential customers are able to see who the developers are and their responsibilities, an overview of what the product does, customer reviews about the product, and the ability to order the product.
+                    They have also created a working C# program for Patient Records. Using the C# program users have the ability to add new patients, update patient records, search patients, or delete patients.
+                    They can view patient demographic information with the ability to add or update information on the patient demographic form. Users can view patient insurance information and add, update, or delete information on that form as well.
+                    They will also be able to view patient medical history and be able to add, update, or delete information on the medical history form.
+                </p>
+            </div>
+
+
+            <!-- Section 3 Projects -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                    <div class="thumbnail">
+                        <img src="images/building-a-sitemap.jpg" alt="Project_Javascript">
+                        <div class="caption">
+                            <h3 class="text-center">Company Name</h3>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p class="text-center"><a href="#" class="btn btn-warning" role="button">View Project</a></p>
+                        </div>
+                    </div><!-- / thumbnail-->
+                </div><!-- /col -->
+            </div><!-- /row -->
+
+            <div class="text-center" id="spy-scroll-id">
+                <a href="#top"><i class="fa fa-chevron-up fa-3x animated" aria-hidden="true"></i></a>
+            </div>
+        </section>
+    </div><!-- /Main Content-container-fluid-->
+
+    <footer>
+        <div class="top-footer">
+            <div class="row text-center">
+                <div class="col-lg-6">
+                    <h6>Contact Ian</h6>
+                    <a href="https://ianarsenault.slack.com/signup" target="_blank" class="soc-icon"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>
+                    <a href="#!" class="soc-icon"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="#!" class="soc-icon"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="#!" class="soc-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-lg-6">
+                    <h6>Contact Jameson</h6>
+                    <a href="#!" class="soc-icon"><i class="fa fa-slack fa-2x" aria-hidden="true"></i></a>
+                    <a href="#!" class="soc-icon"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="#!" class="soc-icon"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                    <a href="#!" class="soc-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div><!-- /top footer -->
+        <div class="bottom-footer">
+            <p class="text-center">&copy; 2016 Team Arsenault</p>
         </div>
-    </div><!-- /top footer -->
-    <div class="bottom-footer">
-        <p class="text-center">&copy; 2016 Team Arsenault</p>
+    </footer>
+
+
+
+    <div class="fixed-download-btn">
+        <a href="https://github.com/GorgonsMaze/CapstoneProject" target="_blank" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="" data-original-title="Project Source Code" aria-describedby="tooltip715414"><i class="fa fa-github fa-2x hidden-xs" aria-hidden="true"></i><span class="btn-text">Download</span></a>
     </div>
-</footer>
 
-
-
-<div class="fixed-download-btn">
-    <a href="https://github.com/GorgonsMaze/CapstoneProject" target="_blank" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="" data-original-title="Project Source Code" aria-describedby="tooltip715414"><i class="fa fa-github fa-2x hidden-xs" aria-hidden="true"></i><span class="btn-text">Download</span></a>
-</div>
-
-
+</main> <!-- / main content-->
 
 
 <!-- jQuery  -->

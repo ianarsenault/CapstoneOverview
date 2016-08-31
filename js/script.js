@@ -10,14 +10,39 @@ var repositionModal = function () {
     dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 3));
 };
 
-
+// Enables scrolling after 7.5 seconds -- loading screen 
+var switchScroll = function () {
+    var body = $("body");
+    setTimeout(function () {
+        body.removeClass("stop-scrolling");
+    }, 7500);
+};
+// Show main content after landing div loads first
+var mainContent = function () {
+    var main = $(".main-section");
+    setTimeout(function () {
+       main.show();
+    }, 3300);
+    /** Transition background-color of body after
+     *  splash div loads first - this stops the blue flash **/
+    var body = $("body");
+    setTimeout(function () {
+       body.css("background-color", "#1f6fb4");
+    }, 3100);
+};
 
 $(document).ready(function () {
     /*$('.carousel').carousel({
         interval: false
     });*/
+    
+    $(".main-section").hide();
+
+    // Display main content 3 seconds after landing div
+    mainContent();
+
     /* Fade out overlay and loading screen */
-    $(".loading-overlay").show().delay(5000).fadeOut(2500);
+    $(".loading-overlay").fadeIn('slow').show().delay(5000).fadeOut(2500);
     $("#fadediv").show();
     /* Progress Bar animation */
     $(".prog-1, .prog-2, .prog-3 ").animate({
@@ -43,7 +68,8 @@ $(document).ready(function () {
         $('.modal:visible').each(repositionModal);
     });
 
-
+    // scroll enable disable function
+   switchScroll();
 
     // Scrollspy init and target - offset
     $('body').scrollspy({
@@ -52,7 +78,7 @@ $(document).ready(function () {
     });
 
 
-    /**  Scrollspy Functionality **/
+    /*  Scrollspy Functionality */
     /* Scrollspy Active Navbutton function */
     $('.navbar li').click(function() {
         // removes active class from previous clicked button
