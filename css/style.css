@@ -426,6 +426,11 @@ and (max-width: 550px) {
 .modal-p {
     color: #666666;
 }
+/* Modal Open - On Windows Chrome the scroll bar
+   disappears - creating a padding on the right */
+.modal-open {
+    padding-right: 0!important;
+}
 /**********************************/
 #prototype {
     padding-top: 60px;
