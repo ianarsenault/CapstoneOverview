@@ -368,6 +368,11 @@ and (max-width: 550px) {
 #show-btn {
     margin-top: 500px;
     padding: 40px;
+}
+/* Button overlay for tech doc */
+#show-btn2 {
+    margin-top: 500px;
+    padding: 40px;
 
 }
 .nav-tabs > li > a {
