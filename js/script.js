@@ -56,7 +56,7 @@ $(document).ready(function () {
         trigger: 'hover'
     });
 
-    $("#show-btn").on('click', function () {
+    $("#show-btn, #show-btn2").on('click', function () {
         $(".clear-overlay").hide();
     });
 
