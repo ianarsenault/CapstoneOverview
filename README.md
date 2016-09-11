@@ -1,6 +1,6 @@
 # AS Capstone Overview
 
-![Statys](https://img.shields.io/badge/Complete-83%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
+![Statys](https://img.shields.io/badge/Complete-85%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
 ![Statys](https://img.shields.io/badge/Team Members-Ian + Jameson-red.svg)
 ![Statys](https://img.shields.io/badge/Frameworks-Bootstrap CSS-blue.svg)
 
@@ -13,9 +13,8 @@ Currently in development. Followed are a list of items that must be completed. T
 #To-Do's [Main]
 * Relationship Diagram of Database
   * SQL Server 2014
-* Screenshots of final project
- * Website
- *  C#
+* Screenshots of C# App
+* Video Demo of Final Website + C# App
 * Powerpoint Presentation (layout completed)
 
 # Extra to-do
@@ -28,7 +27,10 @@ Currently in development. Followed are a list of items that must be completed. T
 - [x] Working Prototype
 - [x] Tech Documentation
 - [x] MySQL DB Diagram
-- [ ] Screenshots
+- [x] Video Demo of Website (Test Demo)
+- [ ] Screenshots 
+ - [x] Website screenshots
+ - [ ] C# Application screenshots
 - [ ] Presentation/Slideshow
 - [x] Project Section
 
