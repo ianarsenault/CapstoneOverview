@@ -342,12 +342,25 @@ and (min-width: 1130px) {
     .embed-pdf {
         width: 850px;
     }
-    .clear-overlay {
+    .clear-overlay1 {
+        width:850px;
+    }
+    .clear-overlay2 {
         width:850px;
     }
 }
 /* PDF OVERLAY */
-.clear-overlay {
+.clear-overlay1 {
+    display: block;
+    height:1125px;
+    width: 95%;
+    /*background-color: rgba(253, 255, 249, 0.48);*/
+    background-color: rgba(0, 0, 0, 0.04);
+    z-index: 500;
+    margin-top: -1132px;
+    position: absolute;
+}
+.clear-overlay2 {
     display: block;
     height:1125px;
     width: 95%;
@@ -360,7 +373,10 @@ and (min-width: 1130px) {
 /* Changes width of overlay */
 @media only screen
 and (max-width: 550px) {
-    .clear-overlay {
+    .clear-overlay1 {
+        width: 89%;
+    }
+    .clear-overlay2 {
         width: 89%;
     }
 }

@@ -17,9 +17,6 @@ Currently in development. Followed are a list of items that must be completed. T
 * Video Demo of Final Website + C# App
 * Powerpoint Presentation (layout completed)
 
-# Extra to-do
- * Scope diagram (Visio)
-
 
 # Completed [Main]
 - [x] Team Introductions
