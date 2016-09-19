@@ -15,7 +15,7 @@ Currently in development. Followed are a list of items that must be completed. T
   * SQL Server 2014
 * Screenshots of C# App
 * Video Demo of Final Website + C# App
-* Powerpoint Presentation (layout completed)
+- [x] Powerpoint Presentation (layout completed)
 
 
 # Completed [Main]
@@ -28,7 +28,7 @@ Currently in development. Followed are a list of items that must be completed. T
 - [ ] Screenshots 
  - [x] Website screenshots
  - [ ] C# Application screenshots
-- [ ] Presentation/Slideshow
+- [x] Presentation/Slideshow
 - [x] Project Section
 
 # Completed [Specific Details]
