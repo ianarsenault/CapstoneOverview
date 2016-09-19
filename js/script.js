@@ -56,8 +56,11 @@ $(document).ready(function () {
         trigger: 'hover'
     });
 
-    $("#show-btn, #show-btn2").on('click', function () {
-        $(".clear-overlay").hide();
+    $("#show-btn").on('click', function () {
+        $(".clear-overlay1").hide();
+    });
+    $("#show-btn2").on('click', function () {
+        $(".clear-overlay2").hide();
     });
 
     /* Vertically center Modals so they don't show up at top of screen */
