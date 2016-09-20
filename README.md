@@ -6,11 +6,10 @@
 
 
 This website is an overview for the details in building our AS Capstone Project 
+PHP MySQL Website -> [Capstone Website](https://github.com/GorgonsMaze/ASCapstoneProject)
+C# SQL Application -< [Capstone Application](https://github.com/OverlordZoltron/CapstoneProjectCSharp)
 
-
-Currently in development. Followed are a list of items that must be completed. This will be updated as we progress. Feel free to open an issue, or pull requests.
-
-#To-Do's [Main]
+#To-Do's [Main] 
 * Video Demo of Final Website + C# App
 
 # Completed [Main]
