@@ -1,6 +1,6 @@
 # AS Capstone Overview
 
-![Statys](https://img.shields.io/badge/Complete-97%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
+![Statys](https://img.shields.io/badge/Complete-100%25-orange.svg) [![CircleCI](https://img.shields.io/circleci/project/BrightFlair/PHP.Gt.svg?maxAge=2592000?style=flat-square)]()
 ![Statys](https://img.shields.io/badge/Team Members-Ian + Jameson-red.svg)
 ![Statys](https://img.shields.io/badge/Frameworks-Bootstrap CSS-blue.svg)
 
@@ -10,7 +10,7 @@ PHP MySQL Website -> [Capstone Website](https://github.com/GorgonsMaze/ASCapston
 C# SQL Application -< [Capstone Application](https://github.com/OverlordZoltron/CapstoneProjectCSharp)
 
 #To-Do's [Main] 
-* Video Demo of Final Website + C# App
+
 
 # Completed [Main]
 - [x] Team Introductions
@@ -39,5 +39,6 @@ C# SQL Application -< [Capstone Application](https://github.com/OverlordZoltron/
 - [x] Relationship Diagram of Database
 - [x] Screenshots of C# App
 - [x] Powerpoint Presentation (layout completed)
+- [x] Video Demo of Final Website + C# App
 
 ## Deadline: September 21, 2016
