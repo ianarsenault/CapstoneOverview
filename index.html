@@ -52,11 +52,54 @@
                     <li class=""><a href="#screenshots" class="">Screenshots</a></li>
                     <li class=""><a href="#presentation" class="">Presentation</a></li>
                     <li class=""><a href="#project" class="">Project</a></li>
+                    <li class=""><a href="#" class=""  data-toggle="modal" data-target="#sourceModal">Source Code</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- / NAVBAR -->
+
+
+    <!-- Modal For Source Code and PDF Downloads -->
+    <div class="modal fade" id="sourceModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Download Source</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        <div class="list-group-item active">
+                            Website Source & PDF's
+                        </div>
+                        <a href="assets/ProtechSolutions.zip" class="list-group-item">Website Source Code</a>
+                        <a href="assets/WebsitePrototypes.pdf" target="_blank" class="list-group-item">Prototype</a>
+                        <a href="assets/protechdb.pdf" target="_blank" class="list-group-item">DB Diagram</a>
+                    </div>
+                    <div class="list-group">
+                        <div class="list-group-item active">
+                            C# Source & PDF's
+                        </div>
+                        <a href="assets/PatientRecords.zip" class="list-group-item">EHR Source Code</a>
+                        <a href="assets/CSharpPrototypes.pdf" target="_blank" class="list-group-item">Prototype</a>
+                        <a href="assets/csharppdf.pdf" target="_blank" class="list-group-item">DB Diagram</a>
+                    </div>
+                    <div class="list-group">
+                        <div class="list-group-item active">
+                            Team Documentation
+                        </div>
+                        <a href="assets/CapstoneProposal.pdf" target="_blank" class="list-group-item">Team Proposal</a>
+                        <a href="assets/TechDocument.pdf" target="_blank" class="list-group-item">Technical Documentation</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Main jumbotron with parrallax-->
     <div class="parallax"></div>
@@ -712,7 +755,7 @@
                                 Health-Care Applications.</p>
                             <p class="text-center"><a
                                     href="http://ict.neit.edu/001241129/public_html/ASCapstoneProject/index.php"
-                                    class="btn btn-warning" role="button">View Project</a>
+                                    target="_blank" class="btn btn-warning" role="button">View Project</a>
                             </p>
                         </div>
                     </div><!-- / thumbnail-->

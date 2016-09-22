@@ -7,11 +7,12 @@
 
 
 This website is an overview for the details in building our AS Capstone Project 
+
 PHP MySQL Website -> [Capstone Website](https://github.com/GorgonsMaze/ASCapstoneProject)
-C# SQL Application -< [Capstone Application](https://github.com/OverlordZoltron/CapstoneProjectCSharp)
+
+C# SQL Application -> [Capstone Application](https://github.com/OverlordZoltron/CapstoneProjectCSharp)
 
 #To-Do's [Main] 
-
 
 # Completed [Main]
 - [x] Team Introductions
@@ -41,5 +42,6 @@ C# SQL Application -< [Capstone Application](https://github.com/OverlordZoltron/
 - [x] Screenshots of C# App
 - [x] Powerpoint Presentation (layout completed)
 - [x] Video Demo of Final Website + C# App
+- [x] Update Source Download Modal with project source code
 
 ## Deadline: September 21, 2016
