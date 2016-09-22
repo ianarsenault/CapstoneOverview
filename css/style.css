@@ -453,6 +453,14 @@ and (max-width: 550px) {
 .modal-open {
     padding-right: 0!important;
 }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #0b60aa;
+    border-color: #2196f3;
+    text-decoration: none;
+}
 /**********************************/
 #prototype {
     padding-top: 60px;
